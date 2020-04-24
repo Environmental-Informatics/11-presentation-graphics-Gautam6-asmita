@@ -1,5 +1,11 @@
 #!/bin/env python
-# Add your own header comments
+# Created on April 11, 2020
+#  by Asmita Gautam
+#
+# This script serves as the solution set for assignment-11 on presentation
+# graphics
+#
+#Assignment completed on: 11th; april 2020
 #
 
 def ReadMetrics( fileName ):
