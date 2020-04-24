@@ -34,7 +34,7 @@ def ReadData( fileName ):
     DataDF = DataDF.set_index('Date')
     
     #Negative discharge values to NaN
-    DataDF.loc(~(DataDF['Discharge']>0),'Discharge')=np.nan
+    DataDF.loc[~(DataDF['Discharge']>0),'Discharge']=np.nan
     # quantify the number of missing values
     MissingValues = DataDF["Discharge"].isna().sum()
     
